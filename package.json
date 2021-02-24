@@ -1,0 +1,20 @@
+{
+  "name": "kabum-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chromedriver": "^81.0.0",
+    "@types/selenium-webdriver": "^4.0.11",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.2.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node-dev src/index.ts"
+  },
+  "dependencies": {
+    "chromedriver": "^88.0.0",
+    "selenium-webdriver": "^4.0.0-beta.1"
+  }
+}
